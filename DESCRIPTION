@@ -1,13 +1,11 @@
 Package: rneos
-Version: 0.3-1
-Date: 2016-03-04
+Version: 0.3-2
+Date: 2016-12-31
 Title: XML-RPC Interface to NEOS
 Authors@R: person("Bernhard", "Pfaff", email = "bernhard@pfaffikus.de", role = c("aut", "cre"))
-Depends: R (>= 2.10.0), methods, RCurl, XML, stats
-Suggests: XMLRPC
-Additional_repositories: http://www.omegahat.net/R
-LazyLoad: yes
-Description: Within this package the XML-RPC API to NEOS is implemented. This enables the user to pass optimization problems to NEOS and retrieve results within R.
+Imports: methods, stats, xmlrpc2, curl, xml2, base64enc
+Depends: R (>= 2.10.0) 
+Description: Within this package the XML-RPC API to NEOS <https://neos-server.org/neos/> is implemented. This enables the user to pass optimization problems to NEOS and retrieve results within R.
 License: GPL (>= 2)
 Author: Bernhard Pfaff [aut, cre]
 Maintainer: Bernhard Pfaff <bernhard@pfaffikus.de>

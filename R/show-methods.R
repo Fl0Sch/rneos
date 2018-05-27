@@ -23,7 +23,7 @@ setMethod("show", "NeosJob", function(object){
   cat("\n")
   cat(paste("The job number is:", object@jobnumber, "\n"))
   cat(paste("The pass word is :", object@password, "\n"))
-  cat("\n")
+  cat("\n")  
 })
 ##
 ## show-method for objects of class NeosOff

@@ -1,8 +1,10 @@
 ##
 ## Import directives
 ##
-import(XML)
-import(RCurl)
+import(base64enc)
+import(curl)
+import(xml2)
+import(xmlrpc2)
 import(methods)
 ## Import functions
 importFrom(stats, update)
